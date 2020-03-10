@@ -45,3 +45,18 @@ let quotation = """
 """
 print(quotation)
 
+
+//array list -- Dict
+
+var lst = ["harsh","vaibhav","darshit","sentu"]
+print(lst[0])
+
+var jsonType = [
+    "name":"ashutosh",
+    "mb":"8888146125",
+    "age":"21"
+]
+
+print(jsonType)
+jsonType["name"] = "willskhalifa"
+print(jsonType)
