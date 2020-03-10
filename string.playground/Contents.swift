@@ -10,3 +10,13 @@ print(str2)
 
 var str3 = ""
 print(str3.isEmpty)
+
+//string interpolation
+
+var name = "Ashutosh"
+var age = 21
+
+print("my name is : ",name)
+print("age is : ",age)
+
+print("my name is \(name) and age is \(age)")
