@@ -24,3 +24,24 @@ print("my name is \(name) and age is \(age)")
 
 var full_name : String = "Ashutosh Wahane"
 print("My name is \(full_name)")
+
+
+//expirement
+
+let size = 30
+let shape = "circle"
+let object = shape + String(size)
+print(object)
+
+//experiment
+let apple = 10
+let banana = 10
+let fruits = "fruits be the \(apple + banana)"
+print(fruits)
+
+
+let quotation = """
+    there is no place like 127.0.0.1
+"""
+print(quotation)
+
