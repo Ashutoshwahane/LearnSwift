@@ -11,4 +11,30 @@ for num in numbers{
     }
 }
 
+// null value OR optional string means it can be null value
+
+var optionalString : String? = "Ashutosh"
+//if optionalString == ""{
+//    print("statement is true !!!!")
+//}
+// if the option value is nil then the condition is false and the code in braces is skipped
+print(optionalString==nil)
+
+var optionalName : String? = "Goldy"
+//var optionalName : String? = nil
+var greeting = "hello"
+if optionalName == nil{
+    if let name = optionalName{
+        greeting = "hello, \(name)"
+    }
+}
+else {
+    if let name = optionalName{
+    greeting = "hello, \(name)"
+    }
+}
+
+
+
+
 
