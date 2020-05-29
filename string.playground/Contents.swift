@@ -33,6 +33,11 @@ let shape = "circle"
 let object = shape + String(size)
 print(object)
 
+
+// Tupple
+let http404error = (404, "not found")
+// http404Error is of type (Int, String), and equals (404, "Not Found")
+
 //experiment
 let apple = 10
 let banana = 10
@@ -60,3 +65,5 @@ var jsonType = [
 print(jsonType)
 jsonType["name"] = "willskhalifa"
 print(jsonType)
+
+
