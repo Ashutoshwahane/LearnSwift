@@ -13,3 +13,7 @@ The value of a constant can’t be changed once it’s set, whereas a variable c
 # Basic Operators
 
 An operator is a special symbol or phrase that you use to check, change, or combine values. For example, the addition operator (+) adds two numbers, as in let i = 1 + 2, and the logical AND operator (&&) combines two Boolean values, as in if enteredDoorCode && passedRetinaScan.
+
+# Strings and Characters
+
+A string is a series of characters, such as "hello, world" or "albatross". Swift strings are represented by the String type. The contents of a String can be accessed in various ways, including as a collection of Character values.
