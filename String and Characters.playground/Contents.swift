@@ -116,6 +116,51 @@ let index = greeting.index(greeting.startIndex,offsetBy: 5)
 greeting[index]
 
 
+for i in greeting.indices{
+    print("\(greeting[i])",terminator : "")
+}
+
+// Inserting and Removing
+var welcm = "hello"
+welcm.insert("!", at: welcm.endIndex)
+
+welcm.insert(contentsOf: " there", at: welcm.index(before: welcm.endIndex))
+
+// to remove a single charactor
+welcm.remove(at: welcm.index(before: welcm.endIndex))
+print(welcm)
+
+let range = welcm.index(welcm.endIndex, offsetBy: -6)..<welcm.endIndex
+welcm.removeSubrange(range)
+
+// Substring
+
+let greet = "Hello, World!"
+let i = greet.firstIndex(of: ",") ?? greet.endIndex
+
+let beggining = greet[..<index]
+let newString = String(beggining)
+
+// Comparing String
+let quote = "I am a Dancer"
+let anotherquote = "I am a Dancer"
+if quote==anotherquote{
+    print("both quote are same")
+}
+let romeoAndJuliet = [
+    "Act 1 Scene 1: Verona, A public place",
+    "Act 1 Scene 2: Capulet's mansion",
+    "Act 1 Scene 3: A room in Capulet's mansion",
+    "Act 1 Scene 4: A street outside Capulet's mansion",
+    "Act 1 Scene 5: The Great Hall in Capulet's mansion",
+    "Act 2 Scene 1: Outside Capulet's mansion",
+    "Act 2 Scene 2: Capulet's orchard",
+    "Act 2 Scene 3: Outside Friar Lawrence's cell",
+    "Act 2 Scene 4: A street in Verona",
+    "Act 2 Scene 5: Capulet's mansion",
+    "Act 2 Scene 6: Friar Lawrence's cell"
+]
+
 
 
 
