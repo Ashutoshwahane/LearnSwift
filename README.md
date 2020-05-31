@@ -1,4 +1,7 @@
-# LearnSwift
+# LearnSwift 
+
+Swift can open doors to the world of coding. In fact, it was designed to be anyone’s first programming language, whether you’re still in school or exploring new career paths.
+
 👨🏽‍💻 Swift Programming Language  from Documentation 👉🏻 https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
 
 **Swift** is a new programming language for iOS, macOS, watchOS, and tvOS app development.
