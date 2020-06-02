@@ -82,6 +82,21 @@ for genres in favoriteGenres.sorted() {
 }
 
 
+// Creating an Empty Dictionary
+var nameOfIntergers = [Int : String]()
+type(of: nameOfIntergers)
+
+nameOfIntergers[10] = "Ashutosh"
+print(nameOfIntergers)
+
+nameOfIntergers = [:]
+
+var nameDictionary : [String : String] = ["Ashutosh": "Wahane","wills": "khalifa"]
+nameDictionary["goldy"] = "programmer"
+
+print(nameDictionary)
+
+
 
 
 
