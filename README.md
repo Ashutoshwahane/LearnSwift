@@ -20,3 +20,8 @@ An operator is a special symbol or phrase that you use to check, change, or comb
 # Strings and Characters
 
 A string is a series of characters, such as "hello, world" or "albatross". Swift strings are represented by the String type. The contents of a String can be accessed in various ways, including as a collection of Character values.
+
+# Collection Type
+
+Swift provides three primary collection types, known as arrays, sets, and dictionaries, for storing collections of values. Arrays are ordered collections of values. Sets are unordered collections of unique values. Dictionaries are unordered collections of key-value associations
+<img width="964" alt="jArray, Set, And Dictionary" src="https://docs.swift.org/swift-book/_images/CollectionTypes_intro_2x.png">
