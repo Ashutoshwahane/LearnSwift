@@ -25,3 +25,9 @@ A string is a series of characters, such as "hello, world" or "albatross". Swift
 
 Swift provides three primary collection types, known as arrays, sets, and dictionaries, for storing collections of values. Arrays are ordered collections of values. Sets are unordered collections of unique values. Dictionaries are unordered collections of key-value associations
 <img width="964" alt="jArray, Set, And Dictionary" src="https://docs.swift.org/swift-book/_images/CollectionTypes_intro_2x.png">
+
+
+
+
+## Contribution 🙏🏻 are always Welcome ( fork this repository and make pull request)**
+<a href="https://www.buymeacoffee.com/LJ9VFRB" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
