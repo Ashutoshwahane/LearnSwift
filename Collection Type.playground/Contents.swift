@@ -63,6 +63,26 @@ print("the letter are of type Set<Character> \(letter.count) items")
 letter.insert("A")
 letter = []
 
+var favoriteGenres : Set<String> = ["dubstep","trap","classic"]
+favoriteGenres.insert("electro house")
+
+if let removeGenres = favoriteGenres.remove("trap") {
+    print("I remove \(removeGenres) I'm over it ! ")
+}else {
+    print("I never much cared for ")
+}
+if favoriteGenres.contains("jazz"){
+    print("I feel like I am dancing ")
+} else {
+    print("jazz not found")
+}
+
+for genres in favoriteGenres.sorted() {
+    print(genres)
+}
+
+
+
 
 
 
