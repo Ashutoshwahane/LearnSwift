@@ -54,7 +54,7 @@ for i in 1...5{
 
 // if we dont need value everytime
 
-let base = 3
+var base = 3
 let power = 10
 var ans = 1
 for _ in 1...power {
@@ -78,6 +78,34 @@ for tickmark in stride(from: 3, through: hour, by: hourInterval){
 }
 
 // while loop
+
+// Snake and Ladder Game using While loop
+
+let finalSquare = 25
+var board = [Int](repeating: 0, count: +1)
+
+var square = 0
+var diceRoll = 0
+while square<finalSquare {
+    // roll the dice
+    diceRoll += 1
+    if diceRoll == 7{
+        diceRoll = 1
+        print(diceRoll)
+    }
+    // moved by roll amount
+    square += diceRoll
+    print(square)
+    if square < board.count {
+        // if we are still on the board , move up or down
+        square += board[square]
+        print(square)
+    }
+}
+print("Game Over !!!!")
+
+
+
 
 
 
